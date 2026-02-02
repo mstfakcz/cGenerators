@@ -1,0 +1,71 @@
+# cGenerators - Türkçe Dil Dosyası
+# Turkish Language File
+
+# Genel
+prefix: '&8[&6cGenerators&8] &7'
+
+# Genel mesajlar
+no-permission: '&cBu komutu kullanma yetkiniz yok!'
+player-only: '&cBu komut sadece oyuncular tarafından kullanılabilir!'
+reload-success: '&aConfig başarıyla yenilendi!'
+plugin-disabled: '&cPlugin devre dışı bırakılıyor!'
+
+# Ekonomi mesajları
+not-enough-money: '&cYetersiz bakiye! Gerekli: &e{cost}{currency}'
+current-balance: '&7Bakiyeniz: &a{balance}{currency}'
+money-withdrawn: '&a{amount}{currency} hesabınızdan çekildi!'
+
+# Tier mesajları
+current-tier: '&7Mevcut Seviye: &e{tier}'
+next-tier: '&7Sonraki Seviye: &e{tier}'
+max-tier-reached: '&cMaksimum seviyeye ulaştınız!'
+upgrade-success: '&aJeneratör başarıyla &e{tier}. seviye&a yükseltildi!'
+upgrade-failed: '&cJeneratör yükseltme başarısız!'
+
+# Tier isimleri (override için - opsiyonel)
+tier-names:
+  1: '&aBaşlangıç Jeneratörü'
+  2: '&eGelişmiş Jeneratör'
+  3: '&6İleri Jeneratör'
+  4: '&bEfsanevi Jeneratör'
+  5: '&d&lMythic Jeneratör'
+
+# Admin mesajları
+admin:
+  tier-set: '&a{player} oyuncusunun tier''ı {tier} olarak ayarlandı!'
+  tier-set-notify: '&aJeneratör tier''ınız {tier} olarak ayarlandı!'
+  player-not-found: '&cOyuncu bulunamadı!'
+  invalid-tier: '&cGeçersiz tier seviyesi!'
+  invalid-number: '&cGeçersiz sayı!'
+  
+  # Admin komut yardımı
+  help:
+    header: '&7========== &6cGenerators Admin &7=========='
+    reload: '&e/cgenadmin reload &7- Config''i yeniden yükle'
+    settier: '&e/cgenadmin settier <oyuncu> <tier> &7- Oyuncunun tier''ını ayarla'
+    info: '&e/cgenadmin info <oyuncu> &7- Oyuncu bilgilerini görüntüle'
+  
+  # Oyuncu bilgileri
+  info:
+    header: '&7========== &6Oyuncu Bilgisi &7=========='
+    player: '&7Oyuncu: &e{player}'
+    tier: '&7Tier: &e{tier}'
+    tier-name: '&7Tier Adı: {tier_name}'
+    balance: '&7Bakiye: &a{balance}'
+
+# Hata mesajları
+errors:
+  vault-not-found: '&cVault bulunamadı! Plugin devre dışı bırakılıyor.'
+  economy-not-found: '&cEkonomi sistemi bulunamadı!'
+  config-error: '&cConfig hatası: {error}'
+  tier-not-found: '&cTier bulunamadı: {tier}'
+  language-not-found: '&cDil dosyası bulunamadı: {language}'
+
+# Debug mesajları
+debug:
+  tier-loaded: 'Tier yüklendi: {tier} - {name}'
+  player-tier: 'Oyuncu: {player} | Tier: {tier} | Üretilen: {material}'
+  config-loaded: 'Config dosyası yüklendi: {file}'
+  language-loaded: 'Dil dosyası yüklendi: {language}'
+  custom-command-registered: 'Özel komut kaydedildi: /{command}'
+

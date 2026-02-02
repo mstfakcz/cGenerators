@@ -1,0 +1,104 @@
+# cGenerators GUI Configuration
+# Menü görünüm ayarları
+
+# Ana menü ayarları
+menu:
+  # Menü başlığı
+  title: '&6&lJeneratör Yükseltme'
+  
+  # Menü boyutu (9, 18, 27, 36, 45, 54 olabilir)
+  size: 27
+  
+  # Boş slotları doldur
+  fill-empty-slots: true
+  
+  # Boş slotlar için materyal
+  fill-material: 'GRAY_STAINED_GLASS_PANE'
+  
+  # Boş slotlar için isim
+  fill-name: ' '
+
+# Item konumları (slot numaraları 0'dan başlar)
+slots:
+  # Mevcut tier göstergesi
+  current-tier: 13
+  
+  # Yükseltme butonu
+  upgrade: 22
+  
+  # Bilgi butonu
+  info: 4
+  
+  # Kapat butonu
+  close: 26
+
+# Mevcut tier item ayarları
+current-tier-item:
+  material: 'COBBLESTONE'
+  glowing: true
+  name: '{tier_name}'
+  lore:
+    - ''
+    - '&7Tier: &e{tier}'
+    - '&7İsim: {tier_name}'
+    - '{tier_description}'
+    - ''
+    - '&7&nÜretim Oranları:'
+    - '{tier_drops}'
+    - ''
+    - '&a✓ Aktif'
+
+# Sonraki tier önizleme ayarları
+next-tier-item:
+  name: '{tier_name}'
+  lore:
+    - ''
+    - '&7Sonraki Tier: &e{tier}'
+    - '&7İsim: {tier_name}'
+    - '{tier_description}'
+    - ''
+    - '&7Maliyet: &a{cost}{currency}'
+    - ''
+    - '&7&nÜretim Oranları:'
+    - '{tier_drops}'
+    - ''
+    - '&eYükseltmek için tıklayın!'
+
+# Yükseltme butonu ayarları
+upgrade-button:
+  material: 'EMERALD'
+  name: '&a&lYÜKSELT'
+  lore:
+    - ''
+    - '&7Sonraki Tier: &e{next_tier}'
+    - '&7Maliyet: &a{cost}{currency}'
+    - ''
+    - '&aTıklayarak yükseltin!'
+
+# Maksimum tier'a ulaşıldığında
+max-tier-button:
+  material: 'BARRIER'
+  name: '&c&lMAKSİMUM SEVİYE'
+  lore:
+    - ''
+    - '&cMaksimum seviyeye ulaştınız!'
+    - ''
+    - '&7Bu en güçlü jeneratör!'
+
+# Bilgi butonu ayarları
+info-button:
+  material: 'BOOK'
+  name: '&e&lBilgi'
+  lore:
+    - ''
+    - '&7Cobblestone jeneratörünüzü'
+    - '&7yükselterek daha fazla ve'
+    - '&7değerli madenler üretebilirsiniz!'
+    - ''
+    - '&eHer tier farklı madenler üretir!'
+
+# Kapat butonu ayarları
+close-button:
+  material: 'BARRIER'
+  name: '&c&lKapat'
+  lore: []

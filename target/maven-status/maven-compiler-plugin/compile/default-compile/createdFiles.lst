@@ -1,0 +1,14 @@
+com\skyblock\cgenerators\listeners\MenuListener.class
+com\skyblock\cgenerators\gui\GeneratorMenu.class
+com\skyblock\cgenerators\models\Tier.class
+com\skyblock\cgenerators\managers\GUIManager.class
+com\skyblock\cgenerators\commands\GeneratorsAdminCommand.class
+com\skyblock\cgenerators\gui\MenuHolder.class
+com\skyblock\cgenerators\listeners\CobbleGenerateListener.class
+com\skyblock\cgenerators\managers\ConfigManager.class
+com\skyblock\cgenerators\CGenerators$1.class
+com\skyblock\cgenerators\managers\EconomyManager.class
+com\skyblock\cgenerators\managers\TierManager.class
+com\skyblock\cgenerators\commands\GeneratorsCommand.class
+com\skyblock\cgenerators\managers\LanguageManager.class
+com\skyblock\cgenerators\CGenerators.class

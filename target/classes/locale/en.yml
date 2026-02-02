@@ -1,0 +1,70 @@
+# cGenerators - English Language File
+
+# General
+prefix: '&8[&6cGenerators&8] &7'
+
+# General messages
+no-permission: '&cYou don''t have permission to use this command!'
+player-only: '&cThis command can only be used by players!'
+reload-success: '&aConfig reloaded successfully!'
+plugin-disabled: '&cPlugin is being disabled!'
+
+# Economy messages
+not-enough-money: '&cInsufficient balance! Required: &e{cost}{currency}'
+current-balance: '&7Your balance: &a{balance}{currency}'
+money-withdrawn: '&a{amount}{currency} withdrawn from your account!'
+
+# Tier messages
+current-tier: '&7Current Tier: &e{tier}'
+next-tier: '&7Next Tier: &e{tier}'
+max-tier-reached: '&cYou''ve reached the maximum tier!'
+upgrade-success: '&aGenerator successfully upgraded to &etier {tier}&a!'
+upgrade-failed: '&cGenerator upgrade failed!'
+
+# Tier names (optional override)
+tier-names:
+  1: '&aStarter Generator'
+  2: '&eAdvanced Generator'
+  3: '&6Superior Generator'
+  4: '&bLegendary Generator'
+  5: '&d&lMythic Generator'
+
+# Admin messages
+admin:
+  tier-set: '&aSet {player}''s tier to {tier}!'
+  tier-set-notify: '&aYour generator tier has been set to {tier}!'
+  player-not-found: '&cPlayer not found!'
+  invalid-tier: '&cInvalid tier level!'
+  invalid-number: '&cInvalid number!'
+  
+  # Admin command help
+  help:
+    header: '&7========== &6cGenerators Admin &7=========='
+    reload: '&e/cgenadmin reload &7- Reload config'
+    settier: '&e/cgenadmin settier <player> <tier> &7- Set player''s tier'
+    info: '&e/cgenadmin info <player> &7- View player information'
+  
+  # Player info
+  info:
+    header: '&7========== &6Player Information &7=========='
+    player: '&7Player: &e{player}'
+    tier: '&7Tier: &e{tier}'
+    tier-name: '&7Tier Name: {tier_name}'
+    balance: '&7Balance: &a{balance}'
+
+# Error messages
+errors:
+  vault-not-found: '&cVault not found! Plugin is being disabled.'
+  economy-not-found: '&cEconomy system not found!'
+  config-error: '&cConfig error: {error}'
+  tier-not-found: '&cTier not found: {tier}'
+  language-not-found: '&cLanguage file not found: {language}'
+
+# Debug messages
+debug:
+  tier-loaded: 'Tier loaded: {tier} - {name}'
+  player-tier: 'Player: {player} | Tier: {tier} | Generated: {material}'
+  config-loaded: 'Config file loaded: {file}'
+  language-loaded: 'Language file loaded: {language}'
+  custom-command-registered: 'Custom command registered: /{command}'
+
