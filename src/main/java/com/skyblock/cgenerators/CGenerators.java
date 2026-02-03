@@ -75,11 +75,18 @@ public class CGenerators extends JavaPlugin {
             localeDir.mkdirs();
         }
         
-        // Varsayılan dil dosyalarını oluştur
-        saveResource("locale/tr.yml", false);
-        saveResource("locale/en.yml", false);
+        // Varsayılan dil dosyalarını oluştur (sadece yoksa)
+        File trFile = new File(getDataFolder(), "locale/tr.yml");
+        if (!trFile.exists()) {
+            saveResource("locale/tr.yml", false);
+        }
         
-        // GUI config'i oluştur
+        File enFile = new File(getDataFolder(), "locale/en.yml");
+        if (!enFile.exists()) {
+            saveResource("locale/en.yml", false);
+        }
+        
+        // GUI config'i oluştur (sadece yoksa)
         File guiFile = new File(getDataFolder(), "gui.yml");
         if (!guiFile.exists()) {
             saveResource("gui.yml", false);

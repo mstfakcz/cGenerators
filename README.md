@@ -6,7 +6,7 @@
 ![Minecraft](https://img.shields.io/badge/minecraft-1.13+-brightgreen.svg)
 ![Java](https://img.shields.io/badge/java-8+-orange.svg)
 
-**Professional Cobblestone Generator Upgrade System for Minecraft Skyblock**
+**Professional Cobblestone Generator System for Minecraft Skyblock**
 
 </div>
 
